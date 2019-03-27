@@ -1,0 +1,165 @@
+.logo > .logo-image { 
+	width: 120px;
+	padding: 35px 0 35px 0;
+}
+
+.wallpaper > .cartel {
+	width: 1000px;
+	padding-top: 20px;
+}
+
+.gadget1, .gadget2 {
+	float: left;
+	padding-bottom: 40px;
+}
+
+.gadget1 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget2 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget1 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget2 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget1 > h3 {
+	font-size: 17px;
+}
+
+.gadget2 > h3 {
+	font-size: 17px;
+}
+
+.gadget1 > .media {
+	padding-top: 20px;
+}
+
+.gadget2 > .media {
+	width: 285px;
+	padding-top: 20px;
+}
+
+.gadget3, .gadget4 {
+	float: left;
+	padding-bottom: 40px;
+}
+
+.gadget3 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget4 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget3 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget4 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget3 > h3 {
+	font-size: 17px;
+}
+
+.gadget4 > h3 {
+	font-size: 17px;
+}
+
+.gadget3 > .media {
+	padding-top: 20px;
+}
+
+.gadget4 > .media {
+	padding-top: 110px;
+}
+
+.gadget5, .gadget6 {
+	float: left;
+}
+
+.gadget5 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget6 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget5 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget6 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget5 > h3 {
+	font-size: 17px;
+}
+
+.gadget6 > h3 {
+	font-size: 17px;
+}
+
+.gadget5 > .media {
+	padding-top: 45px;
+}
+
+.gadget6 > .media {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.gadget7 > h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.gadget7 > p {
+	width: 300px;
+	font-size: 14px;
+}
+
+.gadget7 > h3 {
+	font-size: 17px;
+}
+
+.gadget7 > .media {
+	padding-top: 30px;
+}
+
+.subsection > h3 {
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 20px;
+}
+

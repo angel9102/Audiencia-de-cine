@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="estilos/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2 , h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 140px;
+  background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0
+  }
+}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+  <div class="logo">
+    <img class="logo-image" src="images/movie-logo.jpg">
+  </div>
+  
+  <a href="#sinopsis" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-film w3-xxlarge"></i>
+    <p>SINOPSIS</p>
+  </a>
+  <a href="#gadgets" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-cog w3-xxlarge"></i>
+    <p>GADGETS</p>
+  </a>
+  <a href="#tecnologias" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-usb w3-xxlarge"></i>
+    <p>TECNOLOGÍAS</p>
+  </a>
+  <a href="#impacto" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-users w3-xxlarge"></i>
+    <p>IMPACTO</p>
+  </a>
+  <a href="#referencias" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-chain w3-xxlarge"></i>
+    <p>REFERENCIAS</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#sinopsis" class="w3-bar-item w3-button" style="width:25% !important">SINOPSIS</a>
+    <a href="#gadgets" class="w3-bar-item w3-button" style="width:25% !important">GADGETS</a>
+    <a href="#tecnologias" class="w3-bar-item w3-button" style="width:25% !important">TECNOLOGÍAS</a>
+    <a href="#impacto" class="w3-bar-item w3-button" style="width:25% !important">IMPACTO</a>
+    <a href="#referencias" class="w3-bar-item w3-button" style="width:25% !important">REFERENCIAS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header -->
+  <header align="center" class="wallpaper">
+    <img class="cartel" src="images/darth.jpg" alt="big-cartel">
+  </header>
+
+  <!-- Sinopsis Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-40" id="sinopsis">
+    <h2 class="w3-text-light-grey">Sinopsis</h2>
+    <hr style="width:1000px" class="w3-opacity">
+    <p> Lorem ipsum dolor sit amet, quo essent civibus ad. Cu eam dolorum omittantur, vix id paulo platonem, laudem intellegam sea an. Ut amet percipit ius, volumus platonem omittantur usu ad, eu virtute appetere persecuti his. Et utinam conceptam repudiandae vim, vel ut ipsum dicat. Detracto nominavi electram an mei, nam an minim animal eloquentiam, alia libris bonorum usu an. </p>
+  </div>
+  <!-- End of Sinopsis Section -->
+  
+  <!-- Gadget Section -->  
+  <div class="w3-padding-64 w3-content" id="gadgets">
+    <h2 class="w3-text-light-grey">Necesidades</h2>
+    <hr style="width:1000px" class="w3-opacity">
+    <p>Eros nulla laboramus ei mea. His error omittantur et. Usu ei posse choro consulatu, est delicata percipitur id. Pro no inani iriure conceptam. Enim disputationi vix ex, his ne deleniti perpetua periculis, meliore signiferumque est ut.</p> 
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="gadget1">
+          <h1 class="need_value main">Gadget 1</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 23:36</p>
+          <h3 class="need_title">Necesidad:</h3><p class="need_value">Nulla homero moderatius ut eum, dolores nominati sea eu. Lorem praesent in vel, ius et solet cetero. Ea duo mundi iisque, vix legere dissentias et, est omnes melius ad. Iuvaret postulant eu eam, te offendit constituam pro. Qui et putent noster vivendo, ea duo cibo dolorum, augue constituam inciderint vis ne. Inani tollit an quo, mei alia elit cetero ea, ut est laoreet philosophia.</p>
+          <iframe  class="media" src="https://www.youtube.com/embed/718RDJeISNA" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="gadget2">
+          <h1 class="need_value main">Gadget 2</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 26:24</p>
+          <h3 class="need_title">Necesidad:</h3><p class="need_value">Ut vix tamquam sadipscing, in verear labores assentior eum. Ea ullum detracto partiendo his. Ut novum quidam aliquid nam. Dolor laboramus nam ad..</p>
+          <!--Todas las imagenes utilizadas están en el directorio images -->
+          <img  class="media" src="images/dream-machine1.jpg">
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="gadget3">
+          <h1 class="need_value main">Gadget 3</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 26:42</p>
+          <h3 class="need_title">Necesidad:</h3> <p class="need_value">Quaeque instructior nam no, brute vocibus an sit. Usu no modo fierent maluisset, et est tantas aliquam suscipiantur, quo verear tincidunt in. Tibique vituperata adversarium vis ne, mei mazim patrioque concludaturque ea. Ad duo mutat novum. Consul vidisse feugait per no, eum apeirian accommodare te. Ad dicta nulla convenire vim, ipsum ubique pro ea. Sit in mutat regione hendrerit.</p>
+          <iframe class="media" src="https://www.youtube.com/embed/2T1e9JN_O5Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="gadget4">
+          <h1 class="need_value main">Gadget 4</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 27:45</p>
+          <h3 class="need_title">Necesidad:</h3> <p class="need_value">Nec legere forensibus ea. Eum scripta dissentiet et, atqui quando te eum. Est lucilius atomorum in, duo ne veniam ornatus. Ut nemore evertitur vim, cum aperiri sensibus maluisset no, omnis impedit instructior at eum. </p> 
+          <iframe  class="media" src="https://www.youtube.com/embed/xtbRen9RYx4?t=20s" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="gadget5">
+          <h1 class="need_value main">Gadget 5</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 41:17</p>
+          <h3 class="need_title">Necesidad:</h3> <p class="need_value">Pri ut etiam eruditi voluptatibus. Eam quando graeco mandamus id, est id euismod abhorreant elaboraret. In vel tota tollit, ne eam primis graecis. Vel solet accusam scriptorem te. Homero denique sed te, nullam ignota an est.</p>
+          <iframe  class="media" src="https://www.youtube.com/embed/O3MZYRAZJNk?t=2m6s" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="gadget6">
+          <h1 class="need_value main">Gadget 6</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 58:50</p>
+          <h3 class="need_title">Necesidad:</h3> <p class="need_value">Te mea case deserunt iracundia, id probo iudico lucilius nam. Fugit dolore corrumpit nec ne. Et modus lorem option usu. Duo ex omnes primis voluptua, pri quas vitae propriae ex. At volutpat deseruisse duo, facilis voluptatum ex ius. </p>
+          <iframe  class="media" src="https://www.youtube.com/embed/yHGODp0b8Ks" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="gadget7">
+          <h1 class="need_value main">Gadget 7</h1>
+          <h3 class="need_title">Primera Aparición:</h3><p class="need_value"> 1:01:45</p>
+          <h3 class="need_title">Necesidad:</h3> <p class="need_value">Eam oporteat expetendis sadipscing no, eum ferri denique facilisis et. Cu habeo primis quidam sit, nam ex ipsum putent feugiat. Eos at eros vide complectitur, ei sale facer error mel. Ius exerci appareat an, pri vocent civibus petentium eu. Vim dolore nostrum ut, habeo dolorem nec ut. </p>
+          <iframe  class="media" src="https://www.youtube.com/embed/J6k76vuw9Rk" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Gadget Section -->
+
+  <!-- Tecnologias Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="tecnologias"> 
+    <h2 class="w3-text-light-grey">Tecnologías involucradas</h2>
+    <hr style="width:1000px" class="w3-opacity">
+    <p class="section_text">Alii mollis commune te ius. Sed id augue nullam delicata, in praesent repudiare qui. Cu brute partem aperiam vim. Vel hinc integre facilisis ea, vix idque invidunt insolens an. Per elit labore concludaturque no, ex per melius recteque.</p>
+
+    <div class="subsection">
+      <h3 class="subsection_title">Tecnologías disponibles en el momento de la producción</h3>
+      <p class="subsection_text">Essent neglegentur disputationi vel eu. Id perfecto consectetuer duo. Aliquip molestie voluptatibus usu eu, nam electram prodesset ea, vix quis eius ocurreret in. Malis expetendis nec ex, cum posse voluptua antiopam [<a href="#ref1">1</a>] ei. Ne pri dicit debitis, ea cum dicat prodesset eloquentiam, quo te solum graecis habemus.</p> 
+    </div>
+    <div class="subsection">
+      <h3 class="subsection_title">Tecnologías imaginadas en el momento de la producción</h3>
+      <p class="section_text">Nec at saepe epicuri ocurreret. Oportere reprehendunt his ne, inani aliquando ex per. Ignota animal integre ut sit, ius [<a href="#ref2">2</a>] cu nonumes partiendo. Sea te nulla blandit. Duo at erat perpetua, cu affert probatus menandri sed [<a href="#ref3">3</a>].</p> 
+    </div>
+
+  </div>
+  <!-- End of Tecnologias Section -->
+
+  <!-- Impacto Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-40" id="impacto"> 
+    <h2 class="w3-text-light-grey">Impacto</h2>
+    <hr style="width:1000px" class="w3-opacity">
+    <p class="section_text">Duo ex alienum platonem reprimique, pri ne quas augue. Id sea solum graeco, te quo eligendi aliquando voluptatum, autem virtute labores ei has. Ut vim omnium integre copiosae, harum menandri corrumpit per ut. Duo ei saepe iriure animal.
+    </p>
+    <p class="section_text">Te usu modo maiorum fabellas, vix in meis recusabo sadipscing. Et tractatos adolescens voluptaria has, eum postea assentior te. At soluta nominati mel. Et est causae oporteat evertitur, cu fugit nonumy adipiscing quo. Sea ex diam oblique persius, sed semper vituperata ex.</p>
+    <p class="section_text">Sit quot volumus neglegentur cu. Ut mel perfecto salutatus urbanitas, justo nostrum ei eos. At vocent eligendi inimicus vix, illud saperet ex mei. Per eu causae apeirian. Quodsi deseruisse definiebas mea cu, magna suscipiantur has te, at pri erant option scaevola.</p>
+  </div>
+  <!-- End of Impacto Section -->
+
+  <!-- Referencias Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="referencias"> 
+    <h2 class="w3-text-light-grey">Referencias</h2>
+    <hr style="width:1000px" class="w3-opacity">
+    
+    <ol class="referencias">
+     
+      <li id="ref1">
+        <span class="autor">Wikipedia</span>,
+        <span class="titulo">Fictitious references</span>,
+        <span class="link"><a href="https://en.wikipedia.org/wiki/Wikipedia:Fictitious_references">https://en.wikipedia.org/wiki/Wikipedia:Fictitious_references</a></span>,
+        <span class="visita">(última visita: 6 febrero de 2017)</span>
+      </li>
+      
+      <li id="ref2">
+        <span class="autor">HowTo</span>,
+        <span class="titulo">Make a Fake Bibliography</span>,
+        <span class="link"><a href="http://uncyclopedia.wikia.com/wiki/HowTo:Make_a_Fake_Bibliography/">http://uncyclopedia.wikia.com/wiki/HowTo:Make_a_Fake_Bibliography</a></span>,
+        <span class="visita">(última visita: 6 febrero de 2017)</span>
+      </li>
+
+      <li id="ref3">
+        <span class="autor">Tim Crawford, </span>,
+        <span class="titulo">Reference Generator</span>,
+        <span class="link"><a href="https://www.qub.ac.uk/cite2write/harvard3l.html">https://www.qub.ac.uk/cite2write/harvard3l.html</a></span>,
+        <span class="visita">(última visita: 6 febrero de 2017)</span>
+      </li>
+      
+    </ol> 
+  </div>
+  <!-- End of Referencias Section -->
+  
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+</body>
+</html>
