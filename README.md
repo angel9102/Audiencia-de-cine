@@ -1,4 +1,3 @@
-# Audiencia-de-cine
-CSS and HTML sources.
+This is my first web design
 
-Web design using a template https://angel9102.github.io/Audiencia-de-cine/
+https://angel9102.github.io/Audiencia-de-cine/
